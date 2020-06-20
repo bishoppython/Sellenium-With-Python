@@ -45,7 +45,7 @@ class InstagramBot:
                 driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
                 time.sleep(1)
             try:
-                find_class = driver.find_elements_by_class_name('//button[@class="wpO6b ]"').click()
+                driver.find_elements_by_class_name('//button[@class="wpO6b ]"').click()
                 time.sleep(19)
             except Exception as e:
                 time.sleep(5)
