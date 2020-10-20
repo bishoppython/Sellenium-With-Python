@@ -50,5 +50,5 @@ class InstagramBot:
             except Exception as e:
                 time.sleep(5)
 
-BishopXBot = InstagramBot('bishopxti', 'Abaporojucaiba')
+BishopXBot = InstagramBot('usuario', 'senha')
 BishopXBot.login()
